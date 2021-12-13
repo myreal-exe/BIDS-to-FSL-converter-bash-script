@@ -1,7 +1,7 @@
 # BIDS-to-FSL-converter-bash-script
 
 # Usage :
-1) Assure that your datasets conforms to the following standard: 
+1) Assure that your `-event.tsv` files in your dataset conforms to the following standard: 
 `{subj}_{task_name}_run-{n_run}_events.tsv`
 2) Place the script in the main directory of your BIDS datasets containing all subjects
 3) open a terminal in the dataset directory and run the script using:
