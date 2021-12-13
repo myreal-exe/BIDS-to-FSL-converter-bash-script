@@ -24,7 +24,7 @@ e.g. -> `3`
 
 -e) **response_types** are all possible values for the `reponse_col` we discussed before, the whole parameter **must** be **double-quoted** and the individual response types **must** be **space-separated** between them , as in the example:
 
-e.g -> `"incongruent_correct congruent_correct res4 res5"`
+e.g -> `"incongruent_correct congruent_correct res3 res4"`
 
 -o) **onset_time_col_idx** is the column's index of the subject's onset time (aka timestamp of the start of the event) 
 
