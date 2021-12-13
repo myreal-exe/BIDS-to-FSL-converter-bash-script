@@ -22,7 +22,7 @@ e.g -> `2`
 
 e.g. -> `3`
 
--e) **response_types** are all possible values for the `reponse_col` we discussed before, the whole parameter **must** be **double-quoted** and the ndividual response types **must** be **space-separated** between them , as in the example:
+-e) **response_types** are all possible values for the `reponse_col` we discussed before, the whole parameter **must** be **double-quoted** and the individual response types **must** be **space-separated** between them , as in the example:
 
 e.g -> `"incongruent_correct congruent_correct res4 res5"`
 
