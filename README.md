@@ -5,6 +5,7 @@
 `{subj}_{task_name}_run-{n_run}_events.tsv`
 2) Place the script in the main directory of your BIDS datasets containing all subjects
 3) open a terminal in the dataset directory and run the script using:
+
 `bash bids_to_FSL_timings.sh -t {task_name} -n {num_runs} -r {response_col_idx} -e {response_types} -o {onset_time_col_idx} -d {duration_col_idx}`
 
 ALL PARAMETERS ARE REQUIRED , Parametric modulation is automatically set to 1
