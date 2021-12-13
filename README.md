@@ -8,7 +8,7 @@
 
 `bash bids_to_FSL_timings.sh -t {task_name} -n {num_runs} -r {response_col_idx} -e {response_types} -o {onset_time_col_idx} -d {duration_col_idx}`
 
-ALL PARAMETERS ARE REQUIRED , Parametric modulation is automatically set to 1
+**ALL PARAMETERS ARE REQUIRED** , Parametric modulation is automatically set to 1
 
 # FLAGS DESCRIPTION
 -t) **task_name** is the name of the task the subjects are executing  (if you have multiple tasks just run the script twice with different task names :D )
