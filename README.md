@@ -10,7 +10,7 @@
 ALL PARAMETERS ARE REQUIRED , Parametric modulation is automatically set to 1
 
 # FLAGS DESCRIPTION
--t) **task_name** is the name of the task the subjects are executing  (if you have multiple tasks justrun the script twice with different task names :D )
+-t) **task_name** is the name of the task the subjects are executing  (if you have multiple tasks just run the script twice with different task names :D )
 
 e.g. -> `"task-flanker"`
 
