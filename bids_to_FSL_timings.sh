@@ -31,7 +31,7 @@ for subj in `cat subjList.txt` ; do
 				echo "response : ${response}"
 
 				#creating the timing
-				cat ${subj}_${task_name}_run-${n_run}_events.tsv | awk -v response_col_idx="$response_col_idx" -v event_type="$response" -v onset_time_col_idx="$onset_time_col_idx" -v duration_col_idx="$duration_col_idx" '{if ($response_col_idx==event_type) {print $onset_time_col_idx, $duration_col_idx, "1"}}' > ${response}_run${n_run}.txt
+				cat ${subj}_${task_name}_run-${n_run}_events.tsv | awk -v response_col_idx="$response_col_idx" -v event_type="$response" -v onset_time_col_idx="$onset_time_col_idx" -v duration_col_idx="$duration_col_idx" '{if ($response_col_idx==event_type) {print $onset_time_col_idx, $duration_col_idx, "1"}}' > ${response}_run-${n_run}.txt
 				#output for monitoring
 				cat ${subj}_${task_name}_run-${n_run}_events.tsv | awk -v response_col_idx="$response_col_idx" -v event_type="$response" -v onset_time_col_idx="$onset_time_col_idx" -v duration_col_idx="$duration_col_idx" '{if ($response_col_idx==event_type) {print $onset_time_col_idx, $duration_col_idx, "1"}}' | head -n 5
 			done
